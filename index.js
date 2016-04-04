@@ -10,7 +10,7 @@ var Concat = require('broccoli-concat');
 var VersionChecker = require('ember-cli-version-checker');
 
 module.exports = {
-  name: 'Ember CLI QUnit',
+  name: 'ember-cli-jshint',
 
   _getDependencyTrees: function() {
     if (this._dependencyTrees) {

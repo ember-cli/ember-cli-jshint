@@ -1,37 +1,21 @@
-## ember-cli-qunit
 
-This addon that adds `QUnit` to the generated Ember CLI test output (in `test-vendor.js`).
+ember-cli-jshint
+==============================================================================
 
-### Installation / Usage
+[JSHint](http://jshint.com/) lint tests for your Ember CLI projects.
 
-From within your Ember CLI application (must be > 0.0.42), run the following:
 
-```bash
-ember install ember-cli-qunit
-```
+Installation
+------------------------------------------------------------------------------
 
-### Upgrading
+From within your Ember CLI application run:
 
 ```bash
-ember generate ember-cli-qunit
+ember install ember-cli-jshint
 ```
 
-### Turning off JSHint linting
 
-If you want to turn off JSHint linting you can do the following configuration in your `ember-cli-build.js` file:
+License
+------------------------------------------------------------------------------
 
-```
-var app = new EmberApp({
-  'babel': {
-    optional: ['es7.decorators']
-  },
-
-  'ember-cli-qunit': {
-    useLintTree: false
-  }
-});
-```
-
-### References
-
-* [qunit](https://github.com/jquery/qunit)
+This project is licensed under the [MIT License](LICENSE).

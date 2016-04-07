@@ -5,6 +5,12 @@ var jshintTrees = require('broccoli-jshint');
 module.exports = {
   name: 'ember-cli-jshint',
 
+  /**
+   * instructs older versions of `ember-cli-qunit` and ember-cli-mocha to
+   * disable their lintTree implementations
+   */
+  isDefaultJSLinter: true,
+
   buildConsole: function() {
     var ui = this.ui;
 

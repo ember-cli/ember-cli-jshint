@@ -17,7 +17,7 @@
   "keywords": [
     "ember-addon",
     "ember",
-    "qunit"
+    "jshint"
   ],
   "author": "Jake Craige <jake@poeticsystems.com>",
   "license": "MIT",

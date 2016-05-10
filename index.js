@@ -53,7 +53,7 @@ module.exports = {
           errors = "";
         }
 
-        return project.generateTestFile('JSHint - ' + relativePath, [{
+        return project.generateTestFile('JSHint | ' + relativePath, [{
           name: 'should pass jshint',
           passed: !!passed,
           errorMessage: relativePath + ' should pass jshint.' + errors

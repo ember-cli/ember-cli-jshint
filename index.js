@@ -31,6 +31,7 @@ module.exports = {
   },
 
   init: function() {
+    this._super.apply(this, arguments);
     this.buildConsole();
   },
 

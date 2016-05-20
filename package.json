@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-jshint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JSHint support for ember-cli projects",
   "main": "index.js",
   "scripts": {

@@ -1,7 +1,5 @@
 'use strict';
 
-var jshintTrees = require('broccoli-jshint');
-
 module.exports = {
   name: 'ember-cli-jshint',
 
@@ -44,7 +42,7 @@ module.exports = {
   lintTree: function(type, tree) {
     var project = this.project;
 
-    return jshintTrees(tree, {
+    return require('broccoli-jshint')(tree, {
       jshintrcPath: this.jshintrc[type],
       description: 'JSHint ' +  type,
       console: this.console,

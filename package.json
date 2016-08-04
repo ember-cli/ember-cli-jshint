@@ -10,6 +10,10 @@
     "main": "index.js",
     "configPath": "tests/dummy/config"
   },
+  "files": [
+    "config/environment.js",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ember-cli/ember-cli-jshint.git"

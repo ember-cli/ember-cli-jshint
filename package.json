@@ -11,7 +11,6 @@
     "configPath": "tests/dummy/config"
   },
   "files": [
-    "config/environment.js",
     "index.js"
   ],
   "repository": {

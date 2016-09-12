@@ -1,5 +1,12 @@
 # Change Log
 
+## [v2.0.1](https://github.com/ember-cli/ember-cli-jshint/tree/v2.0.1) (2016-09-13)
+[Full Changelog](https://github.com/ember-cli/ember-cli-jshint/compare/v2.0.0...v2.0.1)
+
+**Fixed bugs:**
+
+- "blueprints" folder missing from "files" key in v2.0.0 [\#23](https://github.com/ember-cli/ember-cli-jshint/issues/23)
+
 ## [v2.0.0](https://github.com/ember-cli/ember-cli-jshint/tree/v2.0.0) (2016-09-12)
 [Full Changelog](https://github.com/ember-cli/ember-cli-jshint/compare/v1.0.5...v2.0.0)
 

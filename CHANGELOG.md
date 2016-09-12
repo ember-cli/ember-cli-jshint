@@ -1,13 +1,13 @@
 # Change Log
 
-## [Unreleased](https://github.com/ember-cli/ember-cli-jshint/tree/HEAD)
-
-[Full Changelog](https://github.com/ember-cli/ember-cli-jshint/compare/v1.0.5...HEAD)
+## [v2.0.0](https://github.com/ember-cli/ember-cli-jshint/tree/v2.0.0) (2016-09-12)
+[Full Changelog](https://github.com/ember-cli/ember-cli-jshint/compare/v1.0.5...v2.0.0)
 
 **Implemented enhancements:**
 
 - Add default blueprint [\#17](https://github.com/ember-cli/ember-cli-jshint/issues/17)
 - Tests [\#7](https://github.com/ember-cli/ember-cli-jshint/issues/7)
+- Update `broccoli-jshint` and explicitly set `targetExtension` [\#22](https://github.com/ember-cli/ember-cli-jshint/pull/22) ([Turbo87](https://github.com/Turbo87))
 - Add "ember-cli-jshint" blueprint [\#21](https://github.com/ember-cli/ember-cli-jshint/pull/21) ([Turbo87](https://github.com/Turbo87))
 
 **Merged pull requests:**

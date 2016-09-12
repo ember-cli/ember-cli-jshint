@@ -13,6 +13,7 @@
     "configPath": "tests/dummy/config"
   },
   "files": [
+    "blueprints",
     "index.js"
   ],
   "repository": {

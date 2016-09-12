@@ -30,7 +30,7 @@ module.exports = {
 
   init: function() {
     this._super.init && this._super.init.apply(this, arguments);
-    
+
     this.buildConsole();
   },
 
@@ -44,6 +44,7 @@ module.exports = {
 
     return require('broccoli-jshint')(tree, {
       jshintrcPath: this.jshintrc[type],
+      targetExtension: 'jshint.lint-test.js',
       description: 'JSHint ' +  type,
       console: this.console,
       testGenerator: function(relativePath, passed, errors) {

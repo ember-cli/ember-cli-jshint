@@ -20,3 +20,12 @@ before_install:
 install:
   - npm install
   - bower install
+
+deploy:
+  provider: npm
+  email: stefan.penner+ember-cli@gmail.com
+  api_key:
+    secure: PPEn2iXcVK//wrbtpSkb6BQanxRZDXkoT5thaMbRyvxT9KFz8wXs5tAOievUq+4NTzyrhtocg+swKMdT/3t067X3Dvnyc7lBc2AGjOEZmok3BiAaDSJMK1ntnh+HJEi5URV47fvCIQbTkbkFEyNMYi8n5b69qaRkJFTnjM2oLoMRxhqsRf8MpYmcIDoSxrrwuMRlSImIzAxo6EbzcJaHkj/4CaBgL4naKiHJkiwSsQ5OBzar7jt5Q4Em1O9/HEUQHC2HswyAh5663c18cLVJoThJIctPvYzCN8lKDWWu8orowJ9DqM+BsBBiaXEzAN4rKCYnXajyjaMwafOaMhNwNj5IR/BDsY+RotLGV3e2rMxI6cj6ticKTYDiu8acuc0z/GTFk5EaGy1RpmawDxVIivG9T6Pt1NyGB63R14Dm3F4mlCS4oGV/gIQhjrN0JukpiXJtcAOzENXsgWY0P1QALhN3P/5DgnciOT68xy4WUtRTYQlU8LzARyWSTdJSy7EBtb60YbyrFkI+Qeofh2RhNWk7sEA8Kx+/JCCyLoOC+/kB9SGdGAj5EyVrV829Y0rTqpJxI8fIEgQLL3MZkkDvuaBrfuFEt9I0sl2zF4mJk6OjjGvwlB3R0t7FmKnMsO8sTUk2qLFCaCBe5pVd8g/nKWhgZWLjLL8EvHUEUtrVqB0=
+  on:
+    tags: true
+    repo: ember-cli/ember-cli-jshint

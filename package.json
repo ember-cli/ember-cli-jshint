@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "ember-cli": "2.7.0",
+    "ember-cli": "2.8.0",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-htmlbars": "^1.0.3",
     "ember-cli-qunit": "^3.0.2",

@@ -47,6 +47,7 @@ module.exports = {
       targetExtension: 'jshint.lint-test.js',
       description: 'JSHint ' +  type,
       console: this.console,
+      failOnAnyError: this.jshintrc.failOnAnyError,
       testGenerator: function(relativePath, passed, errors) {
         if (errors) {
           errors = "\\n" + this.escapeErrorString(errors);

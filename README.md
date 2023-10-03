@@ -1,3 +1,6 @@
+# This is archived
+
+Please use [eslint](https://eslint.org/).
 
 ember-cli-jshint
 ==============================================================================
